@@ -1,0 +1,7 @@
+{
+  "name": "EventConnection",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
