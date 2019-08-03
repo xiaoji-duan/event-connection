@@ -22,7 +22,8 @@ $app-direction: ltr;
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
 
-
+$ec-text-color: #151715;
+$ec-background-color: #e9e8ea;
 
 
 // Named Color Variables
@@ -72,6 +73,15 @@ $colors: (
 
 @import "ionic.theme.default";
 
+:root {
+  /* These examples use the same color: sienna. */
+  --ion-text-color:             $ec-text-color;
+  --ion-text-color-rgb:         21, 23, 21;
+
+  /* These examples use the same color: lightsteelblue. */
+  --ion-background-color:       $ec-background;
+  --ion-background-color-rgb:   233, 232, 234;
+}
 
 // Ionicons
 // --------------------------------------------------
