@@ -4,6 +4,16 @@ import { NavController } from 'ionic-angular';
 @Component({
   selector: 'page-collection',
   template: `
+  <ion-header no-border>
+    <ion-toolbar>
+      <ion-buttons right>
+        <button ion-button icon-only (click)="goBack()">
+          <ion-icon ios="ios-disc" md="ios-disc"></ion-icon>
+        </button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
   <ion-content>
     <ion-grid>
       <ion-row>
