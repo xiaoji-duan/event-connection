@@ -13,7 +13,7 @@ page-home {
       text-align: center;
       border-radius: 8px;
       width: calc(100vmin - 48px);
-      height: 45vmin;
+      height: 33vmin;
       margin: 12px 24px;
       background-color: #800000;
     }
@@ -26,7 +26,7 @@ page-home {
 
     .card-title {
       position: absolute;
-      top: 36%;
+      top: 26%;
       font-size: 2.0em;
       width: 100%;
       font-weight: bold;
@@ -50,7 +50,7 @@ page-home {
       align-items: center;
 
       ion-icon {
-        font-size: 10vmin;
+        font-size: 15vmin;
         color: #fff;
       }
     }
