@@ -10,7 +10,7 @@ import { NavController } from 'ionic-angular';
     </ion-card>
     <ion-card class="button-card">
       <div class="card-icon">
-        <ion-icon ios="ios-add-circle" md="ios-add-circle"></ion-icon>
+        <ion-icon ios="md-add" md="md-add"></ion-icon>
       </div>
     </ion-card>
   </ion-content>`
