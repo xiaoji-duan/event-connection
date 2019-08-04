@@ -4,7 +4,7 @@ import { NavController } from 'ionic-angular';
 @Component({
   selector: 'page-collection',
   template: `
-  <ion-header no-border>
+  <ion-header>
     <ion-toolbar>
       <ion-buttons right>
         <button ion-button icon-only (click)="goBack()">
