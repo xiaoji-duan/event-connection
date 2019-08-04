@@ -4,6 +4,10 @@ page-pushes {
 
   ion-header ion-toolbar .toolbar-background-ios {
     background-color: transparent;
+
+    .toolbar-title{
+      letter-spacing: 0.5vmin;
+    }
   }
 
   ion-content.content-ios {
