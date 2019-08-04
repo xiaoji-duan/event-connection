@@ -1,4 +1,11 @@
 page-collection {
+  background-color: $ec-background-color;
+  color: $ec-text-color;
+
+  ion-content.content-ios {
+    background-color: transparent;
+  }
+
   .full-width {
     margin: 0 -26px;
     padding: 10vmin 0 15vmin 0;
