@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { PushesPageModule } from '../pages/pushes/pushes.module';
+import { CollectionPageModule } from '../pages/collection/collection.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PushesPageModule } from '../pages/pushes/pushes.module';
       //强制使用IOS风格
       mode: 'ios'
     }),
-    PushesPageModule
+    PushesPageModule,
+    CollectionPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
