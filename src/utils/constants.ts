@@ -1,5 +1,5 @@
-import { PushesPage } from "../../pages/pushes/pushes";
-import { CollectionPage } from "../../pages/collection/collection";
+import { PushesPage } from "../pages/pushes/pushes";
+import { CollectionPage } from "../pages/collection/collection";
 
 export class Constants {
   static PAGE = {
