@@ -21,6 +21,7 @@ page-home {
     ion-card.button-card {
       border: 2px dashed #fff;
       background-color: transparent;
+      height: 33vmin;
     }
 
     .card-title {
@@ -44,6 +45,9 @@ page-home {
       height: 100%;
       width: 100%;
       background-color: #228b22;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       ion-icon {
         font-size: 10vmin;
