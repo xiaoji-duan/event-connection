@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
 @Component({
-  selector: 'page-home',
+  selector: 'page-pushes',
   template: `<ion-content class="card-background-page">
     <ion-card>
       <div class="card-title">GitHub</div>
@@ -15,7 +15,7 @@ import { NavController } from 'ionic-angular';
     </ion-card>
   </ion-content>`
 })
-export class HomePage {
+export class PushesPage {
 
   constructor(public navCtrl: NavController) {
 

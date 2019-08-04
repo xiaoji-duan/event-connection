@@ -5,7 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
-import { HomePageModule } from '../pages/home/home.module';
+import { PushesPageModule } from '../pages/pushes/pushes.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { HomePageModule } from '../pages/home/home.module';
       //强制使用IOS风格
       mode: 'ios'
     }),
-    HomePageModule
+    PushesPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
