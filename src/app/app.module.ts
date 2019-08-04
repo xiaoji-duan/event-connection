@@ -13,7 +13,11 @@ import { HomePageModule } from '../pages/home/home.module';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(MyApp, {
+      tabsHideOnSubPages: 'true',
+      //强制使用IOS风格
+      mode: 'ios'
+    }),
     HomePageModule
   ],
   bootstrap: [IonicApp],
