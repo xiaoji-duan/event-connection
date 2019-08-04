@@ -2,8 +2,10 @@ page-collection {
   background-color: $ec-background-color;
   color: $ec-text-color;
 
-  ion-header ion-toolbar .toolbar-background-ios {
-    background-color: transparent;
+  ion-header ion-toolbar {
+    .toolbar-background-ios {
+      background-color: transparent;
+    }
 
     .toolbar-title-ios {
       letter-spacing: 0.5vmin;
