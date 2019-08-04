@@ -47,4 +47,7 @@ export class CollectionPage {
 
   }
 
+  goBack() {
+    this.navCtrl.pop();
+  }
 }
