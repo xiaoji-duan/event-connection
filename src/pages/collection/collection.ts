@@ -8,7 +8,7 @@ import { NavController } from 'ionic-angular';
     <ion-toolbar>
       <ion-buttons right>
         <button ion-button icon-only (click)="goBack()">
-          <ion-icon ios="ios-disc" md="ios-disc"></ion-icon>
+          <ion-icon ios="md-disc" md="md-disc"></ion-icon>
         </button>
       </ion-buttons>
     </ion-toolbar>

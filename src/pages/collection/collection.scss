@@ -2,6 +2,10 @@ page-collection {
   background-color: $ec-background-color;
   color: $ec-text-color;
 
+  ion-header ion-toolbar .toolbar-background-ios {
+    background-color: transparent;
+  }
+
   ion-content.content-ios {
     background-color: transparent;
   }
