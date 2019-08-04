@@ -4,7 +4,14 @@ import { Constants } from '../../utils/constants';
 
 @Component({
   selector: 'page-pushes',
-  template: `<ion-content class="card-background-page">
+  template: `
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>潽柿</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="card-background-page">
     <ion-card>
       <div class="card-title">GitHub</div>
       <div class="card-subtitle">41 messages / 2 repositories</div>
@@ -14,7 +21,8 @@ import { Constants } from '../../utils/constants';
         <ion-icon ios="md-add" md="md-add"></ion-icon>
       </div>
     </ion-card>
-  </ion-content>`
+  </ion-content>
+  `
 })
 export class PushesPage {
 

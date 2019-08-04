@@ -6,6 +6,7 @@ import { NavController } from 'ionic-angular';
   template: `
   <ion-header>
     <ion-toolbar>
+      <ion-title>潽柿</ion-title>
       <ion-buttons right>
         <button ion-button icon-only (click)="goBack()">
           <ion-icon ios="md-disc" md="md-disc"></ion-icon>
