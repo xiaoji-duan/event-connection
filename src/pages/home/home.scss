@@ -15,7 +15,7 @@ page-home {
 
     ion-card.button-card {
       border: 2px dashed #fff;
-      background-color: #228b22;
+      background-color: transparent;
     }
 
     .card-title {
@@ -36,7 +36,14 @@ page-home {
     }
 
     .card-icon {
-      
+      height: 100%;
+      width: 100%;
+      background-color: #228b22;
+
+      ion-icon {
+        font-size: 10vmin;
+        color: #fff;
+      }
     }
   }
 }
