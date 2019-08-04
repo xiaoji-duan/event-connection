@@ -5,7 +5,6 @@ import { NavController } from 'ionic-angular';
   selector: 'page-home',
   template: `<ion-content class="card-background-page">
     <ion-card>
-      <img src="assets/imgs/github.jpg" />
       <div class="card-title">GitHub</div>
       <div class="card-subtitle">41 messages / 2 repositories</div>
     </ion-card>
